@@ -1,0 +1,98 @@
+body {
+    background-color: #f1f1f1;
+    background-image: url(image/background2.jpg);
+    margin: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin: 0;
+    padding: 20px;
+    margin: 0.67em 0;
+  }
+  
+  h2 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  aside ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-size: 15px;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  .side {
+    background-color: #1f1c1c;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    text-align: left;
+    color: white;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+  }
+  
+  main {
+    margin-left: 200px;
+    padding: 0px 10px;
+  }
+  
+  .admin-table {
+    color: white;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .admin-table th,
+  .admin-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .add-category input[type="text"] {
+    padding: 8px;
+    width: 200px;
+    margin-right: 10px;
+  }
+  
+  .add-category ,.btn-add {
+    background-color: #1f1c1c;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .add-category .btn-add i {
+    margin-right: 5px;
+  }
+  
+  .btn-edit,
+  .btn-delete {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .btn-edit:hover,
+  .btn-delete:hover {
+    color: #ff25ff;
+  }
+  
